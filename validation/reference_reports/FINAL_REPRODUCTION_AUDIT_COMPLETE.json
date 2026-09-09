@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "run_utc": "2026-07-12 13:53:13 UTC",
+  "n_checks": 138,
+  "n_passed": 138,
+  "n_failed": 0,
+  "all_scientific_checks_passed": true,
+  "locked_result_audit": "/kaggle/working/submission_critical_repair_audit/locked_result_audit.csv",
+  "summary_json": "/kaggle/working/submission_critical_repair_audit/final_reproduction_summary.json",
+  "environment_info": "/kaggle/working/submission_critical_repair_audit/environment_info.json",
+  "reproducibility_manifest": "/kaggle/working/fia_temporal_observation_drift/final_manuscript_package_q1_mechanism/reproducibility/REPRODUCIBILITY_MANIFEST.csv"
+}

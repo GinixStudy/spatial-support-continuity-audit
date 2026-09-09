@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "groups_checked": 43,
+  "expected_groups": 43,
+  "jaccard_absolute_tolerance": 1e-12,
+  "maximum_absolute_difference": 5.551115123125783e-17,
+  "failures": []
+}

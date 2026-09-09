@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+tests/_cli_*.csv
+examples/local_test_output.csv
+reproduction_logs/
+*.tar
+*.tar.gz
+*.rar
+*.zip
+*.parquet
+!validation/reference_data/*.parquet

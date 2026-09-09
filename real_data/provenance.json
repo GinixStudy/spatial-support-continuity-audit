@@ -1,0 +1,63 @@
+{
+  "purpose": "deterministic real-data input for spatial-support-audit",
+  "scientific_experiments_rerun": false,
+  "archive": "20260712_full_reproduction_output.tar",
+  "archive_expected_sha256": "e23945880a15679b057aa51172bf8828332da27fb87433775eaa6c444402716a",
+  "archive_verified_sha256": "e23945880a15679b057aa51172bf8828332da27fb87433775eaa6c444402716a",
+  "source_members": [
+    "./fia_temporal_observation_drift/derived/three_region_cell_jaccard_synthesis/three_region_harmonized_species_table.csv",
+    "./fia_temporal_observation_drift/derived/registered_gbif_formal_parity/formal_state_processing_summary.csv",
+    "./fia_temporal_observation_drift/derived/registered_gbif_formal_parity/formal_grid_summary.csv",
+    "./fia_temporal_observation_drift/derived/registered_gbif_three_region_download/normalized/PA_registered_gbif.parquet",
+    "./fia_temporal_observation_drift/derived/registered_gbif_three_region_download/normalized/VA_registered_gbif.parquet",
+    "./fia_temporal_observation_drift/derived/registered_gbif_three_region_download/normalized/NC_registered_gbif.parquet"
+  ],
+  "locked_conversion_rules": {
+    "early_years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "late_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "thinning_resolution_degrees": 0.05,
+    "grid_resolution_degrees": 0.5,
+    "maximum_coordinate_uncertainty_m": 10000,
+    "minimum_target_effort_per_cell_period": 10
+  },
+  "software": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "pyarrow": "24.0.0"
+  },
+  "outputs": {
+    "three_state_support_counts.csv": {
+      "rows": 5665,
+      "groups": 43,
+      "sha256": "ac583d2b34780519d372cbcc4344d068bac9bc929d4104bbc965df5547e9598c"
+    },
+    "locked_reference_cell_jaccard.csv": {
+      "rows": 43,
+      "sha256": "2029b43161e5f6c0860b7fa3df6b4b6ef0fa187f5082aa583153654a82b07030"
+    },
+    "conversion_summary.csv": {
+      "rows": 3,
+      "sha256": "6970ca48e378ca802fe2e5d10a747c40f76bb9a74be1504ea278a2aa7c0d648b"
+    },
+    "locked_conversion_parity.csv": {
+      "rows": 21,
+      "passed": 21,
+      "sha256": "74b6db259008cbd2fa97ff62a22e4841d6a1d4833e3d5b4b97eef6660817af82"
+    }
+  }
+}

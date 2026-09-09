@@ -1,0 +1,28 @@
+{
+  "run_utc": "2026-07-12 13:53:13 UTC",
+  "status": "passed",
+  "n_checks": 138,
+  "n_passed": 138,
+  "n_failed": 0,
+  "failed_checks": [],
+  "gbif_records": 143355,
+  "matched_physical_plots": {
+    "PA": 2199,
+    "VA": 3068,
+    "NC": 2516
+  },
+  "species_region_rows": 43,
+  "unique_fia_species_clusters": 19,
+  "threshold_free_primary_rho": 0.5603630428089548,
+  "threshold_free_auc": 0.8028169014084507,
+  "mechanism_effort_rho": 0.7002762424699897,
+  "mechanism_species_rho": -0.8415321118186736,
+  "mechanism_low_minus_high_error": 18.307065372763056,
+  "mechanism_total_replicates": 600000,
+  "environment_files": {
+    "software_versions_core": "/kaggle/working/submission_critical_repair_audit/software_versions_core.csv",
+    "requirements_core": "/kaggle/working/submission_critical_repair_audit/requirements_core.txt",
+    "requirements_full": "/kaggle/working/submission_critical_repair_audit/requirements_full.txt",
+    "environment_info": "/kaggle/working/submission_critical_repair_audit/environment_info.json"
+  }
+}

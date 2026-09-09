@@ -1,0 +1,4 @@
+state,registered_rows,quality_filtered_rows,thinned_rows,effort_taxa,evaluation_species,effort_cell_period_rows,input_rows,effort_early_cells,effort_late_cells,effort_union_cells,effort_jaccard,stable_cells_at_effort_10
+PA,52472,50512,44797,33,15,123,1845,60,63,63,0.9523809523809523,51
+VA,46754,45190,38706,25,11,117,1287,55,62,62,0.8870967741935484,36
+NC,44129,40793,35644,28,17,149,2533,63,86,86,0.7325581395348837,37

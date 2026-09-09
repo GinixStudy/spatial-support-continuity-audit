@@ -1,0 +1,6 @@
+# Python 3.12.13
+# Exact versions below were captured by Cell 23B in 20260712.ipynb.
+-r requirements_core.txt
+ipython
+requests
+urllib3

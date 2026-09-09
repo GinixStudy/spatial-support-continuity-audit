@@ -1,0 +1,9 @@
+species,period,cell_id,effort_count,focal_count
+maple,early,a,12,3
+maple,early,b,15,2
+maple,late,a,20,4
+maple,late,b,5,0
+maple,late,c,12,1
+oak,early,a,12,1
+oak,late,a,12,0
+oak,late,b,5,2

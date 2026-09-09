@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatial-support-audit"
+version = "0.1.0"
+description = "Diagnostics for temporal spatial-support continuity in bias-correction workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Yuhang Gao"},
+  {name = "Hanasi Guo"},
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Repository = "https://github.com/GinixStudy/spatial-support-continuity-audit"
+Issues = "https://github.com/GinixStudy/spatial-support-continuity-audit/issues"
+
+[project.scripts]
+spatial-support-audit = "spatial_support_audit.cli:main"
+ssc-audit = "spatial_support_audit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite the associated manuscript."
+title: "Spatial-support continuity audit workflow"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/GinixStudy/spatial-support-continuity-audit"
+url: "https://github.com/GinixStudy/spatial-support-continuity-audit"
+authors:
+  - family-names: Gao
+    given-names: Yuhang
+    orcid: "https://orcid.org/0009-0008-6253-6720"
+  - family-names: Guo
+    given-names: Hanasi
+    orcid: "https://orcid.org/0009-0007-3129-2367"

@@ -1,0 +1,10 @@
+{
+  "source_notebook": "20260712.ipynb",
+  "source_cell": "23B_submission_critical_repair_audit",
+  "captured_utc": "2026-07-12 07:26:35 UTC",
+  "execution_platform": "Kaggle CPU environment",
+  "gpu_used": false,
+  "experiment_run_by_capture_cell": false,
+  "scope": "Environment that successfully reproduced the frozen 600,000-replicate confirmation; not an absolute historical snapshot of every earlier exploratory run.",
+  "python": "3.12.13"
+}
