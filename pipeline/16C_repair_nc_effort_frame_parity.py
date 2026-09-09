@@ -1267,7 +1267,7 @@ except Exception as exc:
         "CELL16C_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the displayed NC locked-plan summary. "
+            "Save this diagnostic summary and the displayed NC locked-plan summary. "
             "Do not run final inference."
         ),
     )

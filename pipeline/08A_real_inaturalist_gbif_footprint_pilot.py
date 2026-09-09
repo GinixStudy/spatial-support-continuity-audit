@@ -2386,7 +2386,7 @@ except requests.HTTPError as exc:
         "GBIF_HTTP_FAILED",
         f"HTTP {status_code} for {url}",
         (
-            "Retry once. If it repeats, send this block "
+            "Retry once. If it repeats, save this diagnostic summary "
             "without deleting cached outputs."
         ),
     )
@@ -2406,7 +2406,7 @@ except Exception as exc:
         "CELL08A_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the last displayed "
+            "Save this diagnostic summary and the last displayed "
             "table. Do not rerun earlier FIA cells."
         ),
     )

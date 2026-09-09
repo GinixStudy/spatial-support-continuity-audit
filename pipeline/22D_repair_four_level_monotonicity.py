@@ -1256,7 +1256,7 @@ except Exception as exc:
         "CELL22D_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the displayed repair summary. "
+            "Save this diagnostic summary and the displayed repair summary. "
             "Do not rerun the 57,600 simulations."
         ),
     )

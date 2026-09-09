@@ -819,19 +819,19 @@ except requests.HTTPError as exc:
     print_failure(
         "DOWNLOAD_HTTP_FAILED",
         f"HTTP {status_code} for {failing_url}",
-        "Send this COPY block back. The URL pattern or server response must be checked.",
+        "Save this diagnostic summary for diagnosis. The URL pattern or server response must be checked.",
     )
 
 except requests.RequestException as exc:
     print_failure(
         "DOWNLOAD_CONNECTION_FAILED",
         repr(exc),
-        "Confirm Internet is ON and retry once. If it repeats, send this block back.",
+        "Confirm Internet is ON and retry once. If it repeats, save this diagnostic summary for diagnosis.",
     )
 
 except Exception as exc:
     print_failure(
         "PROCESSING_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
-        "Send this COPY block and the last displayed table back.",
+        "Save this diagnostic summary and the last displayed table for diagnosis.",
     )

@@ -2043,7 +2043,7 @@ except requests.HTTPError as exc:
     print_failure(
         "DOWNLOAD_HTTP_FAILED",
         f"HTTP {status_code} for {failing_url}",
-        "Send this COPY block back. Do not rerun completed downloads.",
+        "Save this diagnostic summary for diagnosis. Do not rerun completed downloads.",
     )
 
 except requests.RequestException as exc:
@@ -2057,6 +2057,6 @@ except Exception as exc:
     print_failure(
         "CELL05A_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
-        "Send this COPY block and the last displayed state summary. "
+        "Save this diagnostic summary and the last displayed state summary. "
         "Completed state downloads and outputs will be reused.",
     )

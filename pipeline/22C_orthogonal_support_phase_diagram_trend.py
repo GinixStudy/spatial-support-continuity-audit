@@ -3520,7 +3520,7 @@ except Exception as exc:
         "CELL22C_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the last displayed diagnostic table. "
+            "Save this diagnostic summary and the last displayed diagnostic table. "
             "Do not expand to the full phase diagram."
         ),
     )

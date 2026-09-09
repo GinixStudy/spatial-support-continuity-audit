@@ -1159,7 +1159,7 @@ except Exception as exc:
         "CELL12B_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the last displayed output. "
+            "Save this diagnostic summary and the last displayed output. "
             "Do not rerun the large FIA scan."
         ),
     )

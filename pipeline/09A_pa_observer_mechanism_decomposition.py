@@ -1563,6 +1563,6 @@ except Exception as exc:
     print_failure(
         "CELL09A_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
-        "Send this COPY block and the last displayed output. "
+        "Save this diagnostic summary and the last displayed output. "
         "Do not rerun Cell 08A.",
     )

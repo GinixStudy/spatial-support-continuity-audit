@@ -1103,7 +1103,7 @@ except Exception as exc:
         "CELL10A_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the last displayed table. "
+            "Save this diagnostic summary and the last displayed table. "
             "Do not rerun earlier downloads."
         ),
     )

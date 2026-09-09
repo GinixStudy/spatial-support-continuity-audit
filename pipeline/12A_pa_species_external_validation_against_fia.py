@@ -2578,7 +2578,7 @@ except Exception as exc:
         "CELL12A_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the last displayed output. "
+            "Save this diagnostic summary and the last displayed output. "
             "Do not download new data or rerun prior observer analyses."
         ),
     )

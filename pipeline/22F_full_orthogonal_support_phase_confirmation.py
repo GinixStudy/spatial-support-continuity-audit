@@ -5371,7 +5371,7 @@ except Exception as exc:
         "CELL22F_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the last displayed summary. "
+            "Save this diagnostic summary and the last displayed summary. "
             "Do not modify or selectively rerun the frozen plan."
         ),
     )

@@ -689,7 +689,7 @@ except Exception as exc:
         "CELL16A_FAILED",
         f"{type(exc).__name__}: {repr(exc)}",
         (
-            "Send this COPY block and the displayed input-file table. "
+            "Save this diagnostic summary and the displayed input-file table. "
             "Do not rerun PA/VA/NC analyses."
         ),
     )
