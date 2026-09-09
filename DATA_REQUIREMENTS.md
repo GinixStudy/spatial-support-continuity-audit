@@ -12,3 +12,13 @@ The extracted scientific code is Kaggle-native. A full raw-data run requires:
 
 The old `20260711q1test.tar` is a frozen historical snapshot. Do not overwrite
 it. Use it with `verify_frozen_results.py` or extract it for the PA repair.
+
+## Container mounts
+
+The container preserves the Kaggle paths used by the frozen source. For a full
+run, bind-mount the registered GBIF download read-only at
+`/kaggle/input/datasets/nanjide/20260711gbif`, provide a writable directory at
+`/kaggle/working/fia_temporal_observation_drift`, and mount the repair and
+legacy-recovery directories at the remaining paths listed above. The default
+container validation does not require these external mounts and does not rerun
+the scientific experiments.

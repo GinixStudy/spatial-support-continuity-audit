@@ -13,3 +13,6 @@
   against the frozen manuscript table.
 - Retained the frozen manuscript pipeline and its 138-check audit reports as a
   separate reproducibility component.
+- Added a Python 3.12.13 Docker environment and continuous-integration checks
+  for the packaged toolkit, frozen pipeline, audit records, and real-data
+  support diagnostics.

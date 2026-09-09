@@ -186,12 +186,24 @@ The reference reports are retained so that the published claim of 138 passed
 automated validation checks can be inspected without rerunning the heavy
 analysis.
 
-## Container status
+## Containerized workflow
 
-This release candidate is reproducible in the captured Kaggle environment but
-does not yet contain a tested container image or Dockerfile. It must therefore
-not be described as fully containerized unless a container is later built and
-validated against the frozen outputs.
+The repository includes a Dockerfile based on Python 3.12.13 and a dedicated
+container validation command. GitHub Actions builds the image and verifies the
+captured core environment, the release manifest, the installed toolkit, the
+11 unit and command-line tests, all 37 frozen pipeline scripts, the record of
+138 passed scientific audit checks, and the 43-group real-data diagnostic.
+
+```bash
+docker build --tag spatial-support-audit:0.1.0 .
+docker run --rm spatial-support-audit:0.1.0
+```
+
+The default command does not rerun the 600,000-replicate experiment. The image
+contains the complete frozen pipeline, and a full rerun is enabled by mounting
+the registered GBIF download and writable Kaggle-compatible working
+directories. See `container/README.md` and `DATA_REQUIREMENTS.md` for the exact
+mount contract.
 
 ## Build the new submission archive
 
