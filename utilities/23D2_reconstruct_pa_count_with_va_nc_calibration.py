@@ -945,8 +945,8 @@ if missing_states:
     )
 
     next_step = (
-        "Send tree_file_candidates.csv or the visible FIA input "
-        "folder structure. Do not enter a PA count manually."
+        "Review tree_file_candidates.csv and the visible FIA input "
+        "folder structure before rerunning. Do not enter a PA count manually."
     )
 
     print(

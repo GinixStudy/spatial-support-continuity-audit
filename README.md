@@ -5,8 +5,8 @@ Repository: https://github.com/GinixStudy/spatial-support-continuity-audit
 This directory converts the notebook history into an explicit, auditable
 pipeline. It does not change locked statistics and does not run anything by
 default. It is the local release candidate for the public repository supporting
-the manuscript *Spatial support continuity predicts when observation-drift
-correction helps or harms opportunistic biodiversity data*.
+the manuscript *Computational evaluation of observation-drift correction in
+opportunistic biodiversity data using spatial support continuity*.
 
 The repository has two connected components:
 
@@ -205,3 +205,9 @@ python build_reproduction_archive.py \
 ```
 
 Add `--include-large-outputs` to include the full replicate-level Parquets.
+
+## License
+
+The software and original source code in this repository are released under
+the MIT License. Third-party biodiversity data remain subject to the terms of
+their respective providers.

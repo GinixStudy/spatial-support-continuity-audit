@@ -959,7 +959,7 @@ if not count_df.empty:
     )
 
     next_step = (
-        "Send the count-candidate rows and top relevant cell rows. "
+        "Review the count-candidate rows and top relevant cell rows. "
         "Verify the exact filter before using the count."
     )
 
@@ -969,7 +969,7 @@ elif not cell_df.empty:
     )
 
     next_step = (
-        "Send the top relevant notebook-cell rows. "
+        "Review the top relevant notebook-cell rows. "
         "A minimal PA-only reconstruction cell can now be written."
     )
 
@@ -979,7 +979,7 @@ else:
     )
 
     next_step = (
-        "Open PA_RECONSTRUCTION_CANDIDATE_CELLS.txt and send the "
+        "Review PA_RECONSTRUCTION_CANDIDATE_CELLS.txt, starting with the "
         "highest-scoring candidate section."
     )
 

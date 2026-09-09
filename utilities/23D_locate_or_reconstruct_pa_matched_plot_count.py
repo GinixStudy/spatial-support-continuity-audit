@@ -1010,7 +1010,7 @@ if len(
     )
 
     next_step = (
-        "Send the direct notebook count rows and the matching source cell. "
+        "Review the direct notebook count rows and the matching source cell. "
         "Use the value only after confirming the locked same-window filters."
     )
 
@@ -1022,7 +1022,7 @@ elif len(
     )
 
     next_step = (
-        "Send the table-derived candidate rows and the top notebook cells. "
+        "Review the table-derived candidate rows and the top notebook cells. "
         "Confirm that the table already applies live-tree and nearest-midpoint "
         "filters before using the count."
     )
@@ -1035,7 +1035,7 @@ elif len(
     )
 
     next_step = (
-        "Send the top five notebook-cell rows. A minimal PA-only count cell "
+        "Review the top five notebook-cell rows. A minimal PA-only count cell "
         "can now be reconstructed from the exact original code."
     )
 
