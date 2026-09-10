@@ -1,10 +1,12 @@
 # Spatial-support continuity audit workflow
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22690965.svg)](https://doi.org/10.5281/zenodo.22690965)
+
 Repository: https://github.com/GinixStudy/spatial-support-continuity-audit
 
 This directory converts the notebook history into an explicit, auditable
 pipeline. It does not change locked statistics and does not run anything by
-default. It is the local release candidate for the public repository supporting
+default. It is the public companion repository supporting
 the manuscript *Computational evaluation of observation-drift correction in
 opportunistic biodiversity data using spatial support continuity*.
 
